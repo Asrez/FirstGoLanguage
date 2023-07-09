@@ -1,0 +1,17 @@
+Server :
+  Port : 8000
+logger :
+  filePath : ../logs/logs.log
+  Encoding : json
+  level : debug
+  Logger : zerolog
+cors :
+  allowOrigin : "*"
+
+postgres :
+  host : localhost
+  port : 5433
+  user : postgres
+  password : sH1382@@
+  dbName : TShirt
+  sslMode : disable
